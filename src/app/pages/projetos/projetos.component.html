@@ -1,2 +1,42 @@
-
-<!-- https://api.github.com/users/FerreiraJoao1996/repos -->
+<div class="container" >
+    <div class="row">
+        <div class="col-md-3">
+            <div class="menuFiltro">
+                <p>Linguagens</p>
+                <ul>
+                    <!-- <li>
+                        <a href="">{{data.language}}</a>
+                    </li> -->
+                    <!-- <li *ngFor="let data of dadosFiltrados">{{ data.language }}</li> -->
+                    <!-- <li *ngFor="let data of repositorio">
+                        <a href="">{{ data.language }}</a>
+                    </li> -->
+                    <li>
+                        <a href="">Javascript</a>
+                    </li>
+                    <li>
+                        <a href="">Typescript</a>
+                    </li>
+                    <li>
+                        <a href="">HTML</a>
+                    </li>
+                    <li>
+                        <a href="">CSS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="projetos">
+                <p class="projetosNumero"><strong>{{dataCount}}</strong> repositórios encontrados</p>
+                <div class="projeto" *ngFor="let repo of repositorio ">
+                    <h3><i class="fa-solid fa-book"></i><a href="{{repo.html_url}}"> {{repo.name}}</a></h3>
+                    <p><i class="fa-solid fa-user"></i> <a href="">{{repo.owner.login}}</a></p>
+                    <p><i class="fa-solid fa-circle-dot"></i>{{repo.language}}</p>
+                    <p>{{repo.created_at | date:'dd/MM/yyyy' }} </p>
+                    <p><a href=""></a>Acesse o repositório online</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

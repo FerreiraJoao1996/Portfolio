@@ -1,0 +1,84 @@
+.menuFiltro {
+    padding: 100px 0;
+
+}
+
+.menuFiltro p{
+    color: #ffffff;
+    width: 200px;
+    padding: 5px 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    border-left: 1px solid #ff682d;
+    border-right: 1px solid #ff682d;
+    border-top: 1px solid #ff682d;
+}
+
+.menuFiltro ul {
+    width: 200px;
+    list-style: none;
+    padding: 10px 0;
+    text-align: left;
+    border-left: 1px solid #ff682d;
+    border-right: 1px solid #ff682d;
+    border-bottom: 1px solid #ff682d;
+}
+
+.menuFiltro ul li{
+    padding: 0px 10px;
+    font-size: 1.1em;
+}
+.menuFiltro ul li:not(:last-child){
+    border-bottom: 1px solid #ff682d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menuFiltro ul li a {
+    color: #ffffffb0;
+    text-decoration: none;
+    display: block;
+}
+
+.menuFiltro ul li:hover{
+    background-color: #3b3b3b52;
+}
+
+.projetos{
+    padding: 100px 0;
+}
+
+.projetos .projetosNumero{
+    width: 100%;
+    color: #fff;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f3f3f31a;
+}
+
+.projeto {
+    color: #fff;
+    line-height: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f3f3f31a;
+}
+
+.projeto h3 {
+    font-size: 1.4em;
+}
+
+.projeto a{
+    text-decoration: none;
+}
+
+.projeto i { 
+    color: #ff682d;
+    margin-right: 5px;
+    font-size: 0.8em;
+ }

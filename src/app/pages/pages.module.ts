@@ -4,7 +4,6 @@ import { IndexComponent } from './index/index.component';
 import { ProjetosComponent } from './projetos/projetos.component';
 
 
-
 @NgModule({
   declarations: [
     IndexComponent,
